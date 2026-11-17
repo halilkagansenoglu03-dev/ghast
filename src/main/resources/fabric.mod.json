@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "ghastquit",
+	"version": "${version}",
+	"name": "Ghast Quit",
+	"description": "Disconnects you from a server if no ghast has been loaded for 60 seconds. Shows a countdown.",
+	"authors": [
+		"You"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.ghastquit.GhastQuitClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
